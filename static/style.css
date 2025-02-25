@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,75,200..1000;1,6..12,75,200..1000&display=swap");
+
+body {
+    color: white;
+    background: radial-gradient(
+            circle,
+            rgba(0, 0, 0, 0) 60%,
+            rgba(0, 0, 0, 0.7) 100%
+        ),
+        #080808;
+    font-family: "Nunito Sans";
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 3px 5px 8px #000000;
+    margin: 0;
+    min-height: 100vh;
+    height: 100%;
+}
+
+header {
+    background-color: #040404;
+    padding: 2ch;
+    margin: 0;
+}
+
+header img {
+    width: 150pt;
+    height: 150pt;
+    border-radius: 50%;
+    border-color: white;
+    border-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a svg {
+    width: 25pt;
+    height: 25pt;
+    filter: drop-shadow(3px 5px 8px #000000);
+    display: inline-block;
+    vertical-align: middle;
+    transition-duration: 1s;
+}
+
+a svg:hover {
+    width: 35pt;
+    height: 35pt;
+    fill: red;
+}
+
+a svg:hover path {
+    fill: red;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a svg {
+    width: 25pt;
+    height: 25pt;
+    filter: drop-shadow(3px 5px 8px #000000);
+    display: inline-block;
+    vertical-align: middle;
+    transition-duration: 1s;
+}
+
+header a svg:hover {
+    width: 35pt;
+    height: 35pt;
+    fill: red;
+}
+
+header a svg:hover path {
+    fill: red;
+}
+
+p {
+    scale: 0.9;
+    transition: all 1s ease;
+    padding: 1ch;
+}
+
+
+p:hover {
+    scale: 1;
+}
+
+p img {
+    width: 70%;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: darkred;
+}
