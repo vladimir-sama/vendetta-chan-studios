@@ -99,3 +99,7 @@ a {
 a:hover {
     color: darkred;
 }
+
+ul {
+    margin: auto 35%;
+}
