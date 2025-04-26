@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,75,200..1000;1,6..12,75,200..1000&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 body {
     color: white;
@@ -8,7 +8,7 @@ body {
             rgba(0, 0, 0, 0.7) 100%
         ),
         #080808;
-    font-family: "Nunito Sans";
+    font-family: "Oswald", sans-serif;
     font-weight: 300;
     text-align: center;
     text-shadow: 3px 5px 8px #000000;
@@ -21,16 +21,6 @@ header {
     background-color: #040404;
     padding: 2ch;
     margin: 0;
-}
-
-header img {
-    width: 150pt;
-    height: 150pt;
-    border-radius: 50%;
-    border-color: white;
-    border-style: none;
-    display: inline-block;
-    vertical-align: middle;
 }
 
 a svg {
@@ -76,14 +66,7 @@ header a svg:hover path {
 }
 
 p {
-    scale: 0.9;
-    transition: all 1s ease;
     padding: 1ch;
-}
-
-
-p:hover {
-    scale: 1;
 }
 
 p img {
@@ -102,4 +85,34 @@ a:hover {
 
 ul {
     margin: auto 35%;
+}
+
+h1, h2 {
+    font-weight: 400;
+}
+
+.header-div {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: left;
+}
+
+.header-div img {
+    width: 80pt;
+    height: 80pt;
+    border-radius: 50%;
+    border-color: white;
+    border-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-div h1 {
+    margin-left: 20pt;
+}
+
+.header-div p {
+    margin: 0 auto;
 }
