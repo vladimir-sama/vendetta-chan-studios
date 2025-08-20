@@ -2,13 +2,8 @@
 
 body {
     color: white;
-    background: radial-gradient(
-            circle,
-            rgba(0, 0, 0, 0) 60%,
-            rgba(0, 0, 0, 0.7) 100%
-        ),
-        #080808;
-    font-family: "Oswald", sans-serif;
+    background: #080808;
+    font-family: 'Oswald', sans-serif;
     font-weight: 300;
     text-align: center;
     text-shadow: 3px 5px 8px #000000;
@@ -19,13 +14,17 @@ body {
 
 header {
     background-color: #040404;
-    padding: 2ch;
+    padding: 0;
     margin: 0;
 }
 
+header img {
+    width: 100%;
+}
+
 a svg {
-    width: 25pt;
-    height: 25pt;
+    width: 30pt;
+    height: 30pt;
     filter: drop-shadow(3px 5px 8px #000000);
     display: inline-block;
     vertical-align: middle;
@@ -33,8 +32,8 @@ a svg {
 }
 
 a svg:hover {
-    width: 35pt;
-    height: 35pt;
+    width: 25pt;
+    height: 25pt;
     fill: red;
 }
 
@@ -97,16 +96,6 @@ h1, h2 {
     flex-direction: row;
     align-items: center;
     justify-items: left;
-}
-
-.header-div img {
-    width: 80pt;
-    height: 80pt;
-    border-radius: 50%;
-    border-color: white;
-    border-style: none;
-    display: inline-block;
-    vertical-align: middle;
 }
 
 .header-div h1 {
